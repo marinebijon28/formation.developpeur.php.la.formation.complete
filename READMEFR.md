@@ -60,3 +60,42 @@ print('<br/>Mon nom est Mohamed');
 
 ## Section 2 : Variables
 
+# Qu'est-ce qu'une variable ?
+- une variable conteneur (contenu temporaire)
+- une variable à l'intéreiur de laquelle on peut placer un contenu
+
+# comment déclarer une variable ?
+//$nomVariable = valeurVariable;
+
+# Exemples : 
+$nom = "Mercier";
+$prenom = "claire";
+$age = 18;
+
+La variable doit toujours commencez par un $
+Le nom doit commencer par une lettre ou le underscore (_).
+
+# Le nom de la variable est sensible à la casse
+//$variable
+$VARIABLE
+$Variable
+
+# Types de variables
+Les variables sont susceptibles de stocker différents types de données : 
+- Les chaînes de caractères (texte) : type string en anglais
+- Les nombres entiers : type (int) en anglais
+- Les nombres décimaux : type float (nombre à virgule)
+- Les booléens : type boolean (bool) nee prennent que deux valeurs (true = vrai ou false = faux)
+- Une variable qui contient rien, on lui affecte le type null (rien)
+- Le type "tableau" ou Array en anglais;
+- Le type "objet" ou Pbject en anglais;
+
+# Constantes :
+- Elles s'écrit toujours en majuscule. Pout définir une constante. On utilise le mot-clés define
+define('CAPITAL', "Paris");
+
+- Les constantes magiques sont disponible avec PHP. La constante change en fonction des cas;
+echo __LINE__ . "<br/>";
+
+- Les constantes magiques avec des valeurs fixes
+// true = 1;
