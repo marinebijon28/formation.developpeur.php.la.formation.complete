@@ -97,5 +97,38 @@ define('CAPITAL', "Paris");
 - Les constantes magiques sont disponible avec PHP. La constante change en fonction des cas;
 echo __LINE__ . "<br/>";
 
-- Les constantes magiques avec des valeurs fixes
+- Les constantes avec des valeurs fixes
 // true = 1;
+
+# Opérateur affectation
+- =
+
+# Opérateurs arithmétiques
+- + addition
+- - soustraction
+- * multiplication
+- / division
+- % modulo
+- ** puissance
+
+# Combinaison des opérateurs arithmétiques avce l'opérateur d'affectation
+- += additionne puis affecte le résultat
+- -= soustrait puis affecte le résultat 
+- *= multiplie puis affecte le résultat
+- /= divise puis affecte le résultat
+- %= calcul le modulo puis affecte le résultat
+- **= élève à la puissance puis affecte le résultat
+- .= concatène puis affecte le résultat
+
+# Les opérateurs de comparaison
+- < inférieur strictement
+- > supérieur strictement
+- <= inférieur ou égale
+- >= supérieur ou égale
+- == pour tester l'égalité en termes de valeurs
+- === pour tester  l'égalité  en termes de valeurs et de type 
+- != pour tester la différence en termes de valeurs
+- <=> pour tester la différence en termes de valeurs 
+- !== Pour tester la différence en termes de valeurs et en type
+- ?? pour tester valeur gauche si elle est null
+
