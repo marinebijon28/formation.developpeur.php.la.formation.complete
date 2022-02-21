@@ -132,3 +132,40 @@ echo __LINE__ . "<br/>";
 - !== Pour tester la différence en termes de valeurs et en type
 - ?? pour tester valeur gauche si elle est null
 
+# Conditions
+// première condition
+- if (condition)
+// si la première condition n'est pas bonne
+- else if (condition)
+// autres conditions
+- else 
+
+if (test) {
+    instruction;
+}
+
+if (test) {
+    instructions;
+}
+else {
+    d'autres instructions;
+}
+
+if (test) {
+    d'autres instructions;
+}
+else if (test) {
+    d'autres instructions;
+}
+else {
+    d'autres instructions;
+}
+
+# Les conditions multiples
+Pour faire des conditions multiples on fait appel aux opérateurs logiques :
+- AND : && (ET)
+- OR : || (OU)
+- XOR
+
+# Les structures conditionnelles ternaires (les ternaires)
+test ? code à exécuter si true : code à exécuter si false; 
