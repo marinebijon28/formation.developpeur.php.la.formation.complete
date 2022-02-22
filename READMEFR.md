@@ -100,6 +100,8 @@ echo __LINE__ . "<br/>";
 - Les constantes avec des valeurs fixes
 // true = 1;
 
+## section 3 : opérateurs
+
 # Opérateur affectation
 - =
 
@@ -132,7 +134,7 @@ echo __LINE__ . "<br/>";
 - !== Pour tester la différence en termes de valeurs et en type
 - ?? pour tester valeur gauche si elle est null
 
-# Conditions
+## section 4 : conditions
 // première condition
 - if (condition)
 // si la première condition n'est pas bonne
@@ -168,4 +170,74 @@ Pour faire des conditions multiples on fait appel aux opérateurs logiques :
 - XOR
 
 # Les structures conditionnelles ternaires (les ternaires)
-test ? code à exécuter si true : code à exécuter si false; 
+test ? code à exécuter si true : code à exécuter si false;
+
+## section 5 : Les boucles
+Qu'est-ce qu'une boucle ?
+
+Une boucle fait de répéter plusieurs fois la même action (ensemble d'instructions) tant qu'une condition est vérifiée. 
+
+# 4 types de boucles :
+- while (tant que)
+- do…while (faire… tant que)
+- for (pour)
+- foreach (pour chaque)
+
+# Les opérateurs d'incrémentation et de décrémentation 
+Incrémenter une valeur signifie ajouter 1à cette valeur 
+
+Exemple :
+//$x = 10;
+//$x++;
+Si singifie ajouter 1 à la valeur de la variable $x, donc la nouvelle valeur x devient 11.
+//$x++;
+donne 12;
+
+//$x = 10;
+//$x--;
+Décrémenter une valeur signifie enlever 1 à cette valeur de la variable $x devient 9;
+//$x--;
+donne 8;
+
+# La boucle while
+while (conditions){
+    instructions; -------------->condition non vérifié
+                                    |
+                                    |
+                                    |
+                                le programme sort de la boucle
+}
+
+# La boucle do… while
+do {
+    instructions;
+} while (condition);
+
+# La boucle for
+Les boucles for et while donnent les mêmes résultats.
+Mais leurs syntaxes sont différents for est plus utilisée que while
+
+//$x = 0;
+//while ($x <= 20){
+//  echo 'La valeur de la variable x est : ' . $x . '<br/>';
+//  $x++;
+//}
+
+initialisation; condition; incrémentation
+//for ($x = 0; $x <= 20; $x++) {
+//  echo 'La valeur de la variable x est : ' . $x . '<br/>';
+//}
+
+# Résumé
+Boucles : répéter l'exécution d'un bloc d'instructions (si condition vérifiée)
+
+Savoir à l'avance le |------OUI---------------------------------------FOR
+nombre d'exécution   |                |-----Le bloc doit            |
+                                      |     s'exécuter au moins     |-DO
+                                      |     une fois                | WHILE
+d'un bloc de code    |------NON-------|
+                                      |
+                                      |-----Le bloc d'instruction   |
+                                            ne doit s'exécuter      |-WHILE
+                                            si la condition est     |
+                                            vérifié                 |
