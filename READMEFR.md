@@ -241,3 +241,42 @@ d'un bloc de code    |------NON-------|
                                             ne doit s'exécuter      |-WHILE
                                             si la condition est     |
                                             vérifié                 |
+
+## section 6 : Les fonctions
+
+# définition
+Une fonction est une suite suite écrite d'instructions écrites dans le but de réaliser des actions précises.
+
+# exemples
+gettypes() : le type d'une variable
+var_dump() : affiche des informations structurées telles que le type et la valeur de la variable donnée.
+date() : afficher, une date, l'heure et le numéro de la semaine etc.
+
+# déclaration : Création d'une fonction
+function nomDeLaVariable() {
+    Instructions;
+}
+
+le nombre de la function n'est pas sensible à la casse contrairement ou variable.
+
+# Appel d'une fonction : exécution
+nomdelavariable()
+
+## section 7 : Un retour aux variables
+
+# La portée des variables
+On peut déclarer une variable soit au début d'un programme à l'intéérieur des fonctions. La portée des variables où la variable va être accessible est utilisable.
+
+espace global
+
+Fonction 1 : espace local
+
+espace global
+
+Fonction 2: espace local
+
+espace global
+
+boucle espace global
+
+espace global
